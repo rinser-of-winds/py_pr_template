@@ -40,7 +40,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <py_pr_template>` or `$ py_pr_template` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -51,33 +51,33 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# py_pr_template
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/rinser-of-winds/py_pr_template/branch/main/graph/badge.svg?token=py_pr_template_token_here)](https://codecov.io/gh/rinser-of-winds/py_pr_template)
+[![CI](https://github.com/rinser-of-winds/py_pr_template/actions/workflows/main.yml/badge.svg)](https://github.com/rinser-of-winds/py_pr_template/actions/workflows/main.yml)
 
-project_description
+Awesome py_pr_template created by rinser-of-winds
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install py_pr_template
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from py_pr_template import BaseClass
+from py_pr_template import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m py_pr_template
 #or
-$ project_name
+$ py_pr_template
 ```
 
 ## Development
